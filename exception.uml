@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gsimpson.exception</OriginalElement>
+  <nodes>
+    <node x="162.0" y="0.0">com.gsimpson.exception.GjsBaseException</node>
+    <node x="295.0" y="189.0">com.gsimpson.exception.GjsDateFormatException</node>
+    <node x="0.0" y="189.0">com.gsimpson.exception.GjsNumericFormatException</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gsimpson.exception.GjsNumericFormatException" target="com.gsimpson.exception.GjsBaseException">
+      <point x="0.0" y="-58.5" />
+      <point x="137.5" y="164.0" />
+      <point x="220.75" y="164.0" />
+      <point x="-58.75" y="69.5" />
+    </edge>
+    <edge source="com.gsimpson.exception.GjsDateFormatException" target="com.gsimpson.exception.GjsBaseException">
+      <point x="0.0" y="-58.5" />
+      <point x="421.5" y="164.0" />
+      <point x="338.25" y="164.0" />
+      <point x="58.75" y="69.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="274.0" y="153.0" />
+  <SelectedNodes>
+    <node>com.gsimpson.exception.GjsNumericFormatException</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

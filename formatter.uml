@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.gsimpson.formatter</OriginalElement>
+  <nodes>
+    <node x="639.625" y="527.0">com.gsimpson.formatter.GjsPhoneFormatter</node>
+    <node x="347.625" y="549.0">com.gsimpson.formatter.GjsEmailAddrFormatter</node>
+    <node x="833.625" y="0.0">com.gsimpson.formatter.IFormatter</node>
+    <node x="1565.625" y="549.0">com.gsimpson.formatter.GjsFloatingPointNumberFormatter</node>
+    <node x="800.625" y="145.0">com.gsimpson.formatter.GjsBaseFormatter</node>
+    <node x="1217.625" y="549.5">com.gsimpson.formatter.GjsCurrencyFormatter</node>
+    <node x="0.0" y="757.0">com.gsimpson.formatter.BaseFormatterTest</node>
+    <node x="55.625" y="549.0">com.gsimpson.formatter.GjsSsnFormatter</node>
+    <node x="349.0" y="291.0">com.gsimpson.formatter.GjsBasePatternFormatter</node>
+    <node x="1215.5" y="325.0">com.gsimpson.formatter.GjsBaseNumericFormatter</node>
+    <node x="1565.5" y="325.0">com.gsimpson.formatter.GjsDateFormatter</node>
+    <node x="925.625" y="549.0">com.gsimpson.formatter.GjsNumberFormatter</node>
+    <node x="0.0" y="303.0">com.gsimpson.formatter.GjsEmailFormatter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.gsimpson.formatter.GjsBaseFormatter" target="com.gsimpson.formatter.IFormatter">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="com.gsimpson.formatter.GjsDateFormatter" target="com.gsimpson.formatter.GjsBaseFormatter">
+      <point x="0.0" y="-59.0" />
+      <point x="1707.5" y="261.0" />
+      <point x="1031.625" y="261.0" />
+      <point x="99.0" y="48.0" />
+    </edge>
+    <edge source="com.gsimpson.formatter.GjsBasePatternFormatter" target="com.gsimpson.formatter.GjsBaseFormatter">
+      <point x="0.0" y="-93.0" />
+      <point x="481.0" y="271.0" />
+      <point x="899.625" y="271.0" />
+      <point x="-33.0" y="48.0" />
+    </edge>
+    <edge source="com.gsimpson.formatter.GjsEmailAddrFormatter" target="com.gsimpson.formatter.GjsBasePatternFormatter">
+      <point x="0.0" y="-70.5" />
+      <point x="483.625" y="502.0" />
+      <point x="481.0" y="502.0" />
+      <point x="0.0" y="93.0" />
+    </edge>
+    <edge source="com.gsimpson.formatter.GjsEmailFormatter" target="com.gsimpson.formatter.GjsBaseFormatter">
+      <point x="0.0" y="-81.0" />
+      <point x="164.5" y="261.0" />
+      <point x="833.625" y="261.0" />
+      <point x="-99.0" y="48.0" />
+    </edge>
+    <edge source="com.gsimpson.formatter.GjsBaseNumericFormatter" target="com.gsimpson.formatter.GjsBaseFormatter">
+      <point x="0.0" y="-59.0" />
+      <point x="1380.5" y="271.0" />
+      <point x="965.625" y="271.0" />
+      <point x="33.0" y="48.0" />
+    </edge>
+    <edge source="com.gsimpson.formatter.GjsNumberFormatter" target="com.gsimpson.formatter.GjsBaseNumericFormatter">
+      <point x="0.0" y="-70.5" />
+      <point x="1061.625" y="502.0" />
+      <point x="1270.5" y="502.0" />
+      <point x="-110.0" y="59.0" />
+    </edge>
+    <edge source="com.gsimpson.formatter.GjsSsnFormatter" target="com.gsimpson.formatter.GjsBasePatternFormatter">
+      <point x="0.0" y="-70.5" />
+      <point x="191.625" y="502.0" />
+      <point x="393.0" y="502.0" />
+      <point x="-88.0" y="93.0" />
+    </edge>
+    <edge source="com.gsimpson.formatter.GjsCurrencyFormatter" target="com.gsimpson.formatter.GjsBaseNumericFormatter">
+      <point x="0.0" y="-70.0" />
+      <point x="1381.625" y="502.0" />
+      <point x="1380.5" y="502.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="com.gsimpson.formatter.GjsFloatingPointNumberFormatter" target="com.gsimpson.formatter.GjsBaseNumericFormatter">
+      <point x="0.0" y="-70.5" />
+      <point x="1701.625" y="502.0" />
+      <point x="1490.5" y="502.0" />
+      <point x="110.0" y="59.0" />
+    </edge>
+    <edge source="com.gsimpson.formatter.GjsPhoneFormatter" target="com.gsimpson.formatter.GjsBasePatternFormatter">
+      <point x="0.0" y="-92.5" />
+      <point x="772.625" y="502.0" />
+      <point x="569.0" y="502.0" />
+      <point x="88.0" y="93.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6341176470588236" x="925.0" y="415.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

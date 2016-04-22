@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="apidocs">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$APPLICATION_HOME_DIR$/gjsAddedLibs/commons-email-1.4-bin.zip!/commons-email-1.4/apidocs" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
